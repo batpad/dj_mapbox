@@ -1,0 +1,1 @@
+Some experiments toward building generic GIS tools using Django. Nothing to see here.
