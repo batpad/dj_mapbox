@@ -10,7 +10,7 @@ class Collection(models.Model):
     description = models.TextField(blank=True)
 
     def __str__(self):
-        return self.id
+        return str(self.id)
 
 
 class Feature(models.Model):
@@ -21,4 +21,4 @@ class Feature(models.Model):
     geometry = models.GeometryField(blank=True, null=True)    
 
     def __str__(self):
-        return self.id
+        return str(self.id)
